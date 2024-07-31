@@ -1,7 +1,7 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# Docusaurus 插件文档模板
+# 文档仍在建设中
 
-跟着模板走, 文档不用愁
+遇到BUG请及时反馈~

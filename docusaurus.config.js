@@ -106,7 +106,7 @@ const config = {
             items: [
               {
                 label: 'QQ群',
-                href: 'https://qm.qq.com/q/dENGavSflK',
+                href: 'https://qm.qq.com/q/ZgQIoYhq8O',
               },
             ],
           },
