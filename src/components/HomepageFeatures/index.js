@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '简单易用',
+    title: 'test',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        就这点配置有啥难的.
+        1111
       </>
     ),
   },
   {
-    title: '文档详细',
+    title: 'test',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        看完文档学不会怎么用说明你是个傻逼.
+        2222
       </>
     ),
   },
   {
-    title: '功能强大',
+    title: 'test',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        多说无益, 用用就知道了.
+        3333
       </>
     ),
   },
