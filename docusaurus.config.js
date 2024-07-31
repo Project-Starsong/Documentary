@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Wiki-Template',
-  tagline: 'Docusaurus 插件文档模板',
+  title: 'Yozora Docs',
+  tagline: '星歌计划 服务器文档(Beta)',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -121,7 +121,7 @@ const config = {
           },
         ],
         // 底部版权信息
-        copyright: `Copyright © ${new Date().getFullYear()} Neige, All Rights Reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Yozora Team, All Rights Reserved.`,
       },
       // 深浅主题
       prism: {
