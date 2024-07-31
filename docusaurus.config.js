@@ -78,7 +78,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/postyizhan/Wiki-Template',
+            href: 'https://github.com/w2w2e2wq/wiki',
             label: 'GitHub',
             position: 'right',
           },
@@ -114,8 +114,8 @@ const config = {
             title: '文档仓库',
             items: [
               {
-                label: 'GitHub(WIP)',
-                href: 'https://github.com/',
+                label: 'GitHub',
+                href: 'https://github.com/w2w2e2wq/wiki',
               },
             ],
           },
