@@ -59,7 +59,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Wiki-Template',
+        title: 'Yozora Docs',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -114,8 +114,8 @@ const config = {
             title: '文档仓库',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/postyizhan/Wiki-Template',
+                label: 'GitHub(WIP)',
+                href: 'https://github.com/',
               },
             ],
           },
