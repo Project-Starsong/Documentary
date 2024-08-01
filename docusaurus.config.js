@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Yozora Docs',
-  tagline: '星歌计划 服务器文档(Beta)',
+  title: '星歌文档站',
+  tagline: '文归所档 星颂其歌',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -59,7 +59,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Yozora Docs',
+        title: '星歌计划文档站',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -78,7 +78,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/w2w2e2wq/wiki',
+            href: 'https://github.com/MF-Dust/wiki',
             label: 'GitHub',
             position: 'right',
           },
@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/w2w2e2wq/wiki',
+                href: 'https://github.com/MF-Dust/wiki',
               },
             ],
           },
