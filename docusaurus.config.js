@@ -83,7 +83,8 @@ const config = {
             position: 'right',
           },
           {
-            type: 'localeDropdown',
+            href: 'https://www.starsong.top',
+            label: '官网',
             position: 'right',
           },
         ],
