@@ -31,7 +31,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -121,7 +121,7 @@ const config = {
           },
         ],
         // 底部版权信息
-        copyright: `Copyright © ${new Date().getFullYear()} Yozora Team, All Rights Reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Project_Starsong, MIT License.`,
       },
       // 深浅主题
       prism: {
@@ -139,7 +139,7 @@ const config = {
         require.resolve("@easyops-cn/docusaurus-search-local"),
         {
           hashed: true,
-          language: ["en", "zh"],
+          language: ["zh"],
           highlightSearchTermsOnTargetPage: true,
           explicitSearchResultPath: true,
           indexBlog: false,
