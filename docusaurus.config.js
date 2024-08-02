@@ -43,7 +43,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-            'https://github.com/w2w2e2wq/wiki/blob/main'
+            'https://github.com/MF-Dust/wiki/blob/main'
         },
         blog: false,
         theme: {
