@@ -11,10 +11,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://postyizhan.github.io',
+  url: 'https://github.com/Project-Starsong/Documentary',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Documentary/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -43,7 +43,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-            'https://github.com/MF-Dust/wiki/blob/main'
+            'https://github.com/Project-Starsong/Documentary'
         },
         blog: false,
         theme: {
@@ -78,7 +78,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/MF-Dust/wiki',
+            href: 'https://github.com/Project-Starsong/Documentary',
             label: 'GitHub',
             position: 'right',
           },
@@ -116,7 +116,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/MF-Dust/wiki',
+                href: 'https://github.com/Project-Starsong/Documentary',
               },
             ],
           },
