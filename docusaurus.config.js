@@ -1,91 +1,91 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+// @t-check
+// Note: type annotation allow type checking and IDE autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+cont lightCodeTheme = require('prim-react-renderer/theme/github');
+cont darkCodeTheme = require('prim-react-renderer/theme/dracula');
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+/** @type {import('@docuauru/type').Config} */
+cont config = {
   title: '星歌文档站',
   tagline: '文归所档 星颂其歌',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://github.com/Project-Starsong/Documentary',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // Set the production url of your ite here
+  url: 'http://github.com/Project-Starong/Documentary',
+  // Set the /<baeUrl>/ pathname under which your ite i erved
+  // For GitHub page deployment, it i often '/<projectName>/'
+  baeUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'postyizhan', // Usually your GitHub org/user name.
-  projectName: 'Wiki-Template', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
-  trailingSlash: false,
+  // GitHub page deployment config.
+  // If you aren't uing GitHub page, you don't need thee.
+  organizationName: 'Project-Starong', // Uually your GitHub org/uer name.
+  projectName: 'Documentary', // Uually your repo name.
+  deploymentBranch: 'gh-page',
+  trailingSlah: fale,
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLink: 'throw',
+  onBrokenMarkdownLink: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  // Even if you don't ue internalization, you can ue thi field to et ueful
+  // metadata like html lang. For example, if your ite i Chinee, you may want
+  // to replace "en" with "zh-Han".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'zh-Han',
+    locale: ['zh-Han'],
   },
 
-  presets: [
+  preet: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      'claic',
+      /** @type {import('@docuauru/preet-claic').Option} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
+        doc: {
+          idebarPath: require.reolve('./idebar.j'),
+          routeBaePath: '/',
           editUrl:
-            'https://github.com/Project-Starsong/Documentary'
+            'http://github.com/Project-Starong/Documentary'
         },
-        blog: false,
+        blog: fale,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          cutomC: require.reolve('./rc/c/cutom.c'),
         },
       }),
     ],
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docuauru/preet-claic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // Replace with your project' ocial card
+      image: 'img/docuauru-ocial-card.jpg',
       navbar: {
         title: '星歌计划文档站',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          rc: 'img/logo.vg',
         },
-        hideOnScroll: false,
-        items: [
+        hideOnScroll: fale,
+        item: [
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            poition: 'left',
             label: '开始',
           },
           // 搜索框
           {
-            type: 'search',
-            position: 'right',
+            type: 'earch',
+            poition: 'right',
           },
           {
-            href: 'https://github.com/Project-Starsong/Documentary',
+            href: 'http://github.com/Project-Starong/Documentary',
             label: 'GitHub',
-            position: 'right',
+            poition: 'right',
           },
           {
-            href: 'https://www.starsong.top',
+            href: 'http://www.tarong.top',
             label: '官网',
-            position: 'right',
+            poition: 'right',
           },
         ],
       },
