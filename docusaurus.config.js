@@ -62,7 +62,7 @@ cont config = {
         title: '星歌计划文档站',
         logo: {
           alt: 'Logo',
-          rc: 'img/logo.vg',
+          rc: 'img/logo.svg',
         },
         hideOnScroll: fale,
         item: [
